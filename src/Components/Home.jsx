@@ -29,8 +29,8 @@ const Home = ({ name, title }) => {
     <section id="home" className="dark">
       <img className="background" src={image} alt="" />
       <div style={{ position: "absolute", top: "30%", left: "2rem" }}>
-        <h1>{name}</h1>
-        <h2>{title}</h2>
+        <h1>{name = "Artemis Client Solutions"}</h1>
+        <h2>{title = "Providing zero stress online presence management"}</h2>
       </div>
       <div style={{ position: "absolute", bottom: "8rem", left: "50%" }}>
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
